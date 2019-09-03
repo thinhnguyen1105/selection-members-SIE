@@ -1,10 +1,13 @@
 import React from "react";
+import "../css/home.scss";
+import { Navbar } from "../components/navbar/navbar";
 
-export class Home extends React.Component {
-  state = {
-    test: "Hello World"
-  };
+export class HomePageScreen extends React.Component {
   render() {
-    return <div>{this.state.test}</div>;
+    return (
+      <div>
+        <Navbar></Navbar>
+      </div>
+    );
   }
 }
