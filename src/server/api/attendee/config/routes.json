@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attendees",
+      "handler": "Attendee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendees/count",
+      "handler": "Attendee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendees/:id",
+      "handler": "Attendee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/email/abc",
+      "handler": "Attendee.abc"
+    },
+    {
+      "method": "GET",
+      "path": "/email/confirm/:id",
+      "handler": "Attendee.checked"
+    },
+    {
+      "method": "POST",
+      "path": "/attendees",
+      "handler": "Attendee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/email/send",
+      "handler": "Attendee.email"
+    },
+    {
+      "method": "PUT",
+      "path": "/attendees/:id",
+      "handler": "Attendee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attendees/:id",
+      "handler": "Attendee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+    
+  ]
+}

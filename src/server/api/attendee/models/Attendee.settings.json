@@ -1,0 +1,63 @@
+{
+  "connection": "default",
+  "collectionName": "attendees",
+  "info": {
+    "name": "attendee",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "birth": {
+      "required": true,
+      "type": "date"
+    },
+    "class": {
+      "required": true,
+      "type": "string"
+    },
+    "email": {
+      "required": true,
+      "type": "string"
+    },
+    "phoneNumber": {
+      "required": true,
+      "type": "string"
+    },
+    "facebook": {
+      "required": true,
+      "type": "string"
+    },
+    "club": {
+      "required": true,
+      "type": "string"
+    },
+    "favorite": {
+      "required": true,
+      "type": "string"
+    },
+    "achievement": {
+      "required": true,
+      "type": "string"
+    },
+    "desire": {
+      "required": true,
+      "type": "string"
+    },
+    "product": {
+      "required": true,
+      "type": "string"
+    },
+    "attend": {
+      "required": true,
+      "type": "boolean"
+    }
+  }
+}
